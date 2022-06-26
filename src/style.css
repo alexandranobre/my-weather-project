@@ -1,0 +1,43 @@
+h1,
+h2,
+h3 {
+  color: #fff;
+}
+body {
+  text-align: center;
+  font-family: "Architects Daughter", cursive;
+  background: url(https://images.pexels.com/photos/267313/pexels-photo-267313.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+input {
+  color: #fdc200;
+  background-color: white;
+  font-weight: 800;
+}
+
+.current {
+  display: inline-block;
+  background: #fff;
+  opacity: 80%;
+  color: black;
+  border: 2.5px solid #fdc200;
+  border-radius: 50px;
+  box-shadow: 9px 5px 1px rgba(83, 81, 81, 0.089);
+  margin: 5px;
+  padding: 30px 78px 30px 78px;
+}
+
+.expected {
+  display: inline-block;
+  background: #fff;
+  opacity: 80%;
+  border: 2.5px solid #fdc200;
+  border-radius: 50px;
+  box-shadow: 9px 5px 1px rgba(83, 81, 81, 0.089);
+  margin: 5px;
+  padding: 20px 40px 20px 40px;
+}
