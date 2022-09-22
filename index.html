@@ -24,13 +24,13 @@
     <h2>id="datetime"</h2> 
         <h4>
       <ul>
-         <li> <span id="wind">wind speed</span>
-         <span>km/h</span> <span id="description">
-        </span> </li>
+         <li> <span id="wind"></span> </li>
+         <li> <span id="description"></span></li>
+        
         <img id="icon" />
       </ul>
     </h4>
-    <h3> <span id="temperature"></span> <a href="#" id="celsius-link">°C</a> |<a href="#" id="fahrenheit-link">°F</a></h3>
+    <h3 id="temperature"></h3>
     <form id="entercity">
       <input type="text" id="newcity" placeholder=" Enter city " autocomplete="off"  />
       <input type="submit" value=" search " />
@@ -39,18 +39,21 @@
 </br>
 </br>
 </br>
-      <span class="current"> <strong>Today</strong>  </br>
-          7°/16° Cloudy </span>
-      <span class="current"> <strong>Tomorrow</strong>  </br>
-          10°/16° Drizzle</span>
-      </br>
-    </br>
-            <span class="expected"> <strong>Thursday</strong>  </br>
-                10°/14° Rain </span>
-      <span class="expected"> <strong>Friday</strong>  </br>
-          8°/15° Sunny </span>
-      <span class="expected"> <strong>Saturday</strong>  </br>
-          10°/17° Cloudy </span>
+     <div class="weather-forecast">
+      <div class="row">
+        <div class="col-2">
+          <div class="weather-forecast-date">Thu</div>
+          <img src="" alt="" width=""/>
+          <div class="weather-forecast-temperatures"></div>
+          <span class="weather-forecast-temperature-max">0</span>
+<span class="weather-forecast-temperature-min">0</span>
+        </div>
+
+      </div>
+
+     </div>
+
+     
 
           <div>
           <small>

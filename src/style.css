@@ -6,11 +6,7 @@ h3 {
 body {
   text-align: center;
   font-family: "Architects Daughter", cursive;
-  background: url(https://images.pexels.com/photos/267313/pexels-photo-267313.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
-    no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
+  background-color: lightseagreen;
 }
 
 input {
