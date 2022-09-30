@@ -24,7 +24,3 @@ ul {
   color: white;
   list-style: none;
 }
-
-div.weather-forecast {
-  position: block;
-}
